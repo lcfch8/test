@@ -11,8 +11,8 @@ namespace UserTest
         public void TestMethod1()
         {
             int a = 1;
-            int b = 0;
-            int x = 0;
+            int b = 1;
+            int x = 1;
             User z = new User(a, b, x);
             Assert.IsTrue(z != null);
         }
